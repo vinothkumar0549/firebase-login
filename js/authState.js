@@ -30,7 +30,7 @@ firebase.auth().onAuthStateChanged(function (user) {
         // document.getElementById("registration-div").style.display = "none";
         // document.getElementById("send-verification-div").style.display = "none";
         // document.getElementById("user_email_show").innerHTML = email_id;
-        window.location = "http://127.0.0.1:5501/webapp/index.html";
+        window.location = "https://image-encrypt-decrypt-rubix.vercel.app/";
       }
     }
   } else {
